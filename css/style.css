@@ -1,0 +1,210 @@
+@font-face {
+    font-family: Julius-Sans-One;
+    src: url(../fonts/julius_sans_one/JuliusSansOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Source-Sans-Pro;
+    src: url(../fonts/source_sans_pro/SourceSansPro-Regular.ttf);
+}
+
+html,body{
+    font-family: Source-Sans-Pro;
+    margin: 0 0;
+    padding: 0 0;
+    overflow-x: hidden;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+.curve-img{
+    border-radius: 16px;
+}
+
+.text-white{
+    color: #fff;
+}
+
+.text-black{
+    color: #000;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: cyan;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+.btn{
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 0 12px;
+    border: none;
+}
+
+.btn-primary{
+    background-color: #2f3542;
+    color: #fff;
+}
+
+.btn:hover{
+    font-size: 17.5px;
+}
+
+.btn-black{
+    background-color: #000;
+    color: #fff;
+}
+
+.btn-black:hover{
+    font-size: 17.5px;
+    background-color: #20252e;
+}
+
+.btn-trans{
+    background-color: #cfcfcf;
+    border: 1px solid #424141;
+    
+}
+
+.btn-trans:hover{
+    background-color: #cfcfcf;
+    font-size: 20px;
+}
+
+.form{
+    width: 40%;
+    border-radius: 5px;
+    box-shadow: 10px 5px 30px rgb(0 0 0 / 80%);
+    margin: 50px auto;
+    margin-bottom: 20px;
+}
+
+.form-heading{
+    background-color: #000222;
+    font-size: 25px;
+    text-align: center;
+    padding: 30px;
+    border-bottom: 1px solid #000;
+}
+
+.form-content{
+    padding: 20px;
+}
+
+.input-text-box{
+    padding: 20px 50px;
+}
+
+.input-text{
+    display: block;
+    border: none;
+    padding-top:10px;
+    border-bottom: 1px solid #606f8e;
+    width: 100%;
+    background-color: transparent;
+    padding: 10px;
+    color: rgb(209, 204, 204);
+}
+
+.input-text::placeholder{
+    color: rgb(209, 204, 204);
+}
+
+.form-blue{
+    border: 1px solid rgb(50, 48, 48);
+    background-color: #000532;
+    color: #fff;
+}
+
+textarea:focus, input:focus{
+    outline: none!important;
+}
+
+.input-text:focus{
+    border-bottom: 1.5px solid #fff;
+}
+
+.btn-submit{
+    background-color: #021bff;
+    margin: 10px auto;
+    padding: 10px 20px;
+    width: 85%;
+    font-size: 16px;
+}
+
+.btn-submit:hover{
+    font-size: 16px;
+    background-color: #051be1;
+}
+
+.password-inst{
+    padding: 20px 50px;
+    color: #a9aaae;
+}
+
+.password-inst p{
+    margin-bottom: 5px;
+}
+
+.signup-link{
+    padding: 20px;
+    padding-bottom: 50px;
+    font-size: 25px;
+}
+
+.signup-link a{
+    color: #021bff;
+    text-decoration: underline;
+}
+
+.tandc{
+    padding: 80px 150px;
+}
+
+.text-red{
+    color: red!important;
+}

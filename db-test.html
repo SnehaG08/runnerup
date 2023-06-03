@@ -1,0 +1,23 @@
+<script>
+    // (A) LOAD DB MODULE
+const mysql = require("mysql");
+
+// (B) CREATE CONNECTION - CHANGE TO YOUR OWN !
+const db = mysql.createConnection({
+  host: "localhost",
+  user: "root",
+  password: "",
+  database: "users_runnerup"
+});
+db.connect((err) => {
+  if (err) { throw err; document.write("ERORR"); }
+  document.write("DB connection OK");
+});
+
+// (C) QUERY
+db.query("SELECT * FROM `tb_users`", (err, results) => {
+  if (err) { throw err; }
+  document.write(results);
+});
+</script>
+

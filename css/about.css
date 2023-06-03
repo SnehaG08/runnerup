@@ -1,0 +1,22 @@
+.about-pg{
+    background-color: #ececec;
+}
+
+.about{
+    padding: 20px 50px;
+    text-align: center;
+}
+
+.about-img{
+    width: 70%;
+    margin: 30px auto;
+}
+
+.about-heading h2{
+    font-size: 40px;
+}
+
+.about-txt{
+    padding: 10px 40px;
+    font-size: 18px;
+}

@@ -1,0 +1,103 @@
+.gender-radio-box{
+    margin: 12px;
+}
+
+.size-input-box{
+    display: inline-block;
+    margin: 5px 25px;
+    font-size: 15px;
+}
+
+.secsec12{
+    display: flex;
+}
+
+.filter-sort-bar{
+    display: inline-block;
+    border-right: 1px solid black;
+    margin: 50px 20px;
+    padding: 0 20px;
+    width: 15%;
+}
+
+.bg-white{
+    background-color: #fff !important;
+}
+
+.bg-grey{
+    background-color: #ececec !important;
+}
+
+.sale-sec-13{
+    width: 80%;
+    display: inline-block;
+    padding: 50px 10px;
+}
+
+.sale-sec-12{
+    display: inline-block;
+    background-color: #ececec;
+    padding: 50px;
+}
+
+.sale-heading{
+    margin-bottom: 30px;
+}
+
+.sale-heading a{
+    color: #2f3542 !important;
+}
+
+.sale-heading a:hover{
+    color: red!important;
+}
+
+.sale-box{
+    display: inline-block;
+    width: 15%;
+    margin: 12px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.sale-box-img{
+    width: 90%;
+    margin: 15px;
+    display: block;
+}
+
+.sale-box-content{
+    display: block;
+    margin-top: 25px;
+    overflow: wrap;
+}
+
+.sale-shoe-name{
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.sale-real-price{
+    display: inline-block;
+    font-size: 20px;
+    color: red;
+    text-decoration: line-through;
+}
+
+.sale-new-price{
+    display: inline-block;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-size: 21px;
+}
+
+.sale-shoe-desc{
+    font-size: 15px;
+    color: #747d8c;
+}
+
+.sale-boxes{
+    text-align: center;
+}

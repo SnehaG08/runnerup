@@ -1,0 +1,38 @@
+/*.brands{
+    margin: 20px auto;
+}
+
+.brand-box-black, .brand-box-white{
+  float: left;
+  width: 33.33%;
+  height: 600px;
+  overflow-x: hidden;
+}
+
+.brand-box-black img{
+    width: 200px;
+    align-items: center;
+    vertical-align: middle;
+    position: relative;
+    top: 195px;
+    left: 130px;
+}
+
+.brand-box-white img{
+    width: 400px;
+    position: relative;
+    top: 80px;
+    left: 5px;
+}
+
+.brand-box-black{
+    background-color: #000;
+}*/
+
+.brand-box-3{
+    width: 28%;
+    display: inline-block;
+    margin: 2%;
+    padding: 4% 0;
+}   
+

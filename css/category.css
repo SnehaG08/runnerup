@@ -1,0 +1,90 @@
+
+.cat-heading{
+    margin-top: 40px;
+    margin-bottom: 17px;
+    margin-left: 22px;
+    font-size: 22px;
+    font-family: Source-Sans-Pro;
+}
+
+.category {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    /*border: 1px solid red;*/
+}
+@media (min-width: 768px) {
+    .category {
+      width: 750px;
+    }
+}
+  @media (min-width: 992px) {
+    .category {
+      width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .category {
+      width: 1170px;
+    }
+}
+
+
+.shoe-cat-box{
+    margin: 0 10px;
+    height: 220px;
+    padding: 0 10.8px;
+    background-color: #fff;
+    border-radius: 5px;
+    /*border: 1px solid red;*/
+    text-align: center;
+    display: inline-block;
+}
+
+
+.shoe-img{
+    width: 150px !important;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    padding: 12px;
+}
+
+.shoe-name{
+    font-size: 16px;
+    font-family: Julius-Sans-One;
+    margin-bottom: 15px;
+}
+
+.shoe-prize::before{
+    content: "From ";
+}
+
+
+@media(max-width:1900px){
+    .cat-box{
+        display: flex !important;
+        overflow: scroll;
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(181, 176, 176); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: grey; 
+  }

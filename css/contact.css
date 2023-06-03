@@ -1,0 +1,45 @@
+.contact-form-box{
+    background-image: url("../Images/bg-contact.jpg");
+    overflow: hidden;
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+.contact-form{
+    padding: 50px;
+    width: 30%;
+    margin: 50px auto;
+    border-radius: 15px;
+    background-color: #13384f;
+    border: 2px solid #112e40;
+    box-shadow: -10px 10px #112e40;
+    font-size: 20px;
+    color: #fff;
+}
+
+.input-box * {
+    vertical-align: middle;
+}
+
+.input-box{
+    padding: 30px;
+}
+
+.contact-inputgrp{
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #2c76a1;
+    width: 100%;
+}
+
+.contact-mssg-grp{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #2c76a1;
+    width: 100%;
+}
+
+input:focus, textarea:focus{
+    border-bottom: 3px solid #3b95c9;
+}

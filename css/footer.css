@@ -1,0 +1,31 @@
+.footer-black{
+    background-color: rgb(42, 40, 40);
+    padding: 50px 20px;
+    display: flex;
+}
+
+.quick-links{
+    text-align: center;
+}
+
+.quick-links-box{
+    display: inline-block;
+    padding: 30px 60px;
+}
+
+.quick-links h4{
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.quick-links ul{
+    list-style-type: none;
+}
+
+.quick-links li a{
+    font-size: 17px;
+}
+
+.social a{
+    padding: 40px;
+}

@@ -1,0 +1,305 @@
+/* Navbar Basic*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header_black{
+    z-index: 2;
+    position:fixed;
+    width: 100%;
+    height: 75px;
+    background-color: #000;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 17px !important;
+}
+
+.img1{
+    /*margin-left: 5px;
+    margin-top: 3px;*/
+    height: 65px;
+    display: inline-block;
+}
+
+.img2{
+    display: none;
+    margin: auto 0;
+    cursor: pointer;
+}
+
+.tabs ul, .rightside ul{
+    list-style-type: none;
+}
+
+.tabs ul li, .rightside ul li{
+    display: inline-block;
+    padding: 20px 15px;
+}
+
+.tabs ul li a, .rightside ul li a{
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+}
+
+.tabs ul li a:hover, .rightside ul li a:hover{
+    color: cyan;
+}
+
+.tabs ul li a::after:not(#tabHamburger), .rightside ul li a::after{
+    content: "";
+    left: 0px;
+    bottom: -6px;
+    width: 0px;
+    height: 3px;
+    background-color: #3366ff;
+    position: absolute;
+    transition: width 250ms ease-in;
+}
+
+.tabs ul li a:hover::after:not(#tabHamburger), .rightside ul li a:hover::after{
+    width: 100%;
+}
+
+.rightside ul li{
+    margin-right: 40px;
+}
+
+
+/* ---------------------- */
+.spacer{
+    width: 100%;
+    height: 83px;
+}
+
+/* ----------------------- */
+
+/* rightside hamburger option*/
+
+/*#rightsideMobileNav{
+    display: none;
+    margin: auto 0;
+    cursor: pointer;
+}*/
+
+#tabsHamburger{
+    display: none;
+    margin: auto 0;
+    cursor: pointer;
+    color: #fff;
+}
+
+.overlay{
+    height: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.rightsideOverlayContent{
+    position: relative;
+    top: 80px;
+    left: 27px;
+}
+
+.rightsideOverlayContent ul{
+    list-style-type: none;
+}
+
+.rightsideOverlayContent ul li{
+    display: block;
+    padding: 12px 5px;
+}
+
+.rightsideOverlayContent ul li a, .rightsideClosebtn{
+    text-decoration: none;
+    color: #818181;
+    position: relative;
+}
+
+.rightsideOverlayContent ul li a{
+    font-size: 18px;
+}
+
+.rightsideClosebtn{
+    position: absolute;
+    font-size: 30px;
+    top: 60px;
+    left: 30px;
+}
+
+.rightsideClosebtn:active, .rightsideClosebtn:focus, .rightsideClosebtn:hover{
+    color: rgb(247, 63, 63);
+}
+
+.rightsideOverlayContent ul li a:active, .rightsideOverlayContent ul li a:focus, .rightsideOverlayContent ul li a:hover{
+    color: cyan;
+}
+
+/* Complete Mobile Nav */
+.mobileResponsNav{
+    display: none;
+    margin: auto 0;
+    cursor: pointer;
+}
+
+.mobileResponsNav ul{
+    list-style-type: none;
+}
+
+.mobileResponsNav ul li{
+    display: inline-block;
+    padding: 20px 15px; 
+}
+
+.mobileResponsNav ul li a{
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+}
+
+.mobileOverlayContent{
+    position: relative;
+    top: 80px;
+    left: 27px;
+}
+
+.mobileOverlayContent ul{
+    list-style-type: none;
+}
+
+.mobileOverlayContent ul li{
+    display: block;
+    padding: 12px 5px;
+}
+
+.mobileOverlayContent ul li a, .closebtn{
+    text-decoration: none;
+    color: #818181;
+    position: relative;
+}
+
+.mobileOverlayContent ul li a{
+    font-size: 15px;
+}
+
+.closebtn{
+    position: absolute;
+    font-size: 30px;
+    top: 70px;
+    left: 13px;
+}
+
+.closebtn:active, .closebtn:focus, .closebtn:hover{
+    color: rgb(247, 63, 63);
+}
+
+.mobileOverlayContent ul li a:active, .mobileOverlayContent ul li a:focus, .mobileOverlayContentul li a:hover{
+    color: #fff;
+}
+
+/* Media Queries */
+@media(max-width:960px){
+    .rightside{
+        display: none;
+        cursor: pointer;
+    }
+
+    .tabs{
+        margin-right: 20px;
+    }
+
+    #tabsHamburger{
+        display: inline-block;
+    }
+
+}
+
+@media(max-width:621px){
+    .tabs, .rightside{
+        display: none;
+        margin: auto 0;
+        cursor: pointer;
+    }
+    .mobileResponsNav{
+        margin-right: 20px;
+        display: inline-block;
+    }
+}
+
+
+@media(max-width:295px){
+    .mobileOverlayContent ul li a{
+        font-size: 15px;
+    }
+
+}
+
+@media(max-width:243px){
+    .logo img{
+        height: 40px;
+        margin-top: 10px;
+    }
+
+    /*nav{
+        padding: 3px 15px;
+        justify-content: space-between;
+    }*/
+}
+
+@media(max-width:200px){
+    .logo img{
+        height: 20px;
+        margin-top: 20px;
+    }
+
+    .closebtn{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:128px){
+    /*nav{
+        display: block;
+        text-align: left;
+    }
+
+    .header_black{
+        height: 100px;
+    }*/
+
+    .img1{
+        display: none;
+        margin: auto 0;
+        cursor: pointer;
+    }
+
+    .img2{
+        display: inline-block;
+        height: 50px;
+    }
+}
+
+@media(max-width:105px){
+    nav{
+        display: block;
+    }
+
+    .header_black{
+        text-align: justify;
+    }
+
+    .logo img{
+        margin: 0 auto;
+    }
+}
+

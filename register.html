@@ -1,0 +1,47 @@
+<head><script src="csi.js-master/csi.min.js"></script></head>
+
+<div data-include="assets/header.html"></div>
+
+
+<div class="form form-blue">
+    <div class="form-heading form-blue-heading"> Create an Account </div>
+    <div class="form-content form-blue-content">
+        <form action="">
+            <div class="input-text-box">
+                <label for="uname" class="form-label form-label-blue">Username<span style="color: red;">*</span></label>
+                <input type="text" name="uname" id="uname" class="input-text input-text-blue uname" placeholder="eg: John Doe" required>
+            </div>
+            
+            <div class="input-text-box">
+                <label for="uemail" class="form-label form-label-blue">Email Address<span style="color: red;">*</span></label>
+                <input type="email" name="uemail" id="uemail" class="uemail input-text input-text-blue" placeholder="eg: doejohn@gmail.com" required>
+            </div>
+            
+            <div class="input-text-box">
+                <label for="upass" class="form-label form-label-blue">Password<span style="color: red;">*</span></label>
+                <input type="password" name="" id="upass" class="upass input-text input-text-blue" minlength="8" required>
+            </div>
+
+            <div class="password-inst">
+                <p>The password must be at least 8 characters long</p>
+                <p>The password must contain at least one special character (!@#$%&*)</p>
+
+                <br>
+
+                <p><input type="checkbox" name="tandc_aggrement" id="tandc" class="tandc checkbox" required> I have read and accept all <a href="t-and-c.html">Terms and Conditions</a> of this website.<span style="color: red;">*</span> </p>
+            </div>
+            
+            <div class="text-center">
+                <button type="submit" class="btn btn-submit">Create Account</button>    
+            </div>
+            
+        </form>
+    </div>
+</div>
+
+<div class="signup-link text-center">
+    Already have an account? <a href="register.html">Login Here</a>
+</div>
+
+<script src="js/header.js"></script>
+<div data-include="assets/footer.html"></div>
